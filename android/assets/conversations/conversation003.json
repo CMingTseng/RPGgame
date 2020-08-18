@@ -1,0 +1,31 @@
+{
+  "currentConversationID": "1",
+  "conversation": [
+    {
+      "id": 1,
+      "dialog": "Hello Traveler. Would you like to see my wares?"
+    },
+    {
+      "id": 2,
+      "dialog": "OK"
+    },
+    {
+      "id": 3,
+      "dialog": "OK"
+    }
+  ],
+  "associatedChoices": [
+    {
+      "sourceId": 1,
+      "destinationId": 2,
+      "choicePhrase": "Yes",
+      "conversationCommandEvent": "LOAD_STORE_INVENTORY"
+    },
+    {
+      "sourceId": 1,
+      "destinationId": 3,
+      "choicePhrase": "No",
+      "conversationCommandEvent": "EXIT_CONVERSATION"
+    }
+  ]
+}

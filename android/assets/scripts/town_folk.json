@@ -1,0 +1,551 @@
+[
+  {
+    "entityID": "TOWN_FOLK13",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "conversations/conversation001.json",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 1,
+            "y": 4
+          },
+          {
+            "x": 1,
+            "y": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK14",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 1,
+            "y": 5
+          },
+          {
+            "x": 1,
+            "y": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK15",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 1,
+            "y": 6
+          },
+          {
+            "x": 1,
+            "y": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK17",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK22",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 3,
+            "y": 5
+          },
+          {
+            "x": 3,
+            "y": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK25",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK32",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 4,
+            "y": 7
+          },
+          {
+            "x": 4,
+            "y": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK33",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK34",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK39",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK44",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK51",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 8,
+            "y": 7
+          },
+          {
+            "x": 8,
+            "y": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK52",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "conversations/conversation001.json",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 11,
+            "y": 0
+          },
+          {
+            "x": 11,
+            "y": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_FOLK56",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 11,
+            "y": 4
+          },
+          {
+            "x": 11,
+            "y": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_BLACKSMITH",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "conversations/conversation003.json",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_INNKEEPER",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 0,
+            "y": 5
+          },
+          {
+            "x": 0,
+            "y": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_MAGIC",
+    "state": "IMMOBILE",
+    "direction": "DOWN",
+    "conversationConfigPath": "conversations/conversation003.json",
+    "animationConfig": [
+      {
+        "frameDuration": 1,
+        "animationType": "IMMOBILE",
+        "texturePaths": [
+          "sprites/characters/Player0.png",
+          "sprites/characters/Player1.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "entityID": "TOWN_GUARD",
+    "state": "IDLE",
+    "conversationConfigPath": "conversations/conversation002.json",
+    "animationConfig": [
+      {
+        "frameDuration": 0.25,
+        "animationType": "WALK_DOWN",
+        "texturePaths": [
+          "sprites/characters/Paladin.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "frameDuration": 0.25,
+        "animationType": "WALK_LEFT",
+        "texturePaths": [
+          "sprites/characters/Paladin.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "frameDuration": 0.25,
+        "animationType": "WALK_RIGHT",
+        "texturePaths": [
+          "sprites/characters/Paladin.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "frameDuration": 0.25,
+        "animationType": "WALK_UP",
+        "texturePaths": [
+          "sprites/characters/Paladin.png"
+        ],
+        "gridPoints": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      }
+    ]
+  }
+]

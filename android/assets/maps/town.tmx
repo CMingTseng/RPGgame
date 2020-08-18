@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="180">
+ <tileset firstgid="1" name="Floor" tilewidth="32" tileheight="32" tilecount="819" columns="21">
+  <image source="../sprites/objects/Floor.png" width="672" height="1248"/>
+ </tileset>
+ <tileset firstgid="820" name="Decor0" tilewidth="32" tileheight="32" tilecount="176" columns="8">
+  <image source="../sprites/objects/Decor0.png" width="256" height="704"/>
+ </tileset>
+ <tileset firstgid="996" name="Wall" tilewidth="32" tileheight="32" tilecount="1020" columns="20">
+  <image source="../sprites/objects/Wall.png" width="640" height="1632"/>
+ </tileset>
+ <tileset firstgid="2016" name="Tree0" tilewidth="32" tileheight="32" tilecount="264" columns="8">
+  <image source="../sprites/objects/Tree0.png" width="256" height="1056"/>
+ </tileset>
+ <tileset firstgid="2280" name="Ground0" tilewidth="32" tileheight="32" tilecount="56" columns="8">
+  <image source="../sprites/objects/Ground0.png" width="256" height="224"/>
+ </tileset>
+ <tileset firstgid="2336" name="Paladin" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <properties>
+   <property name="entityID" value="FOLK"/>
+   <property name="name" value="NPC"/>
+   <property name="state" value="WALKING"/>
+  </properties>
+  <image source="../sprites/characters/Paladin.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="entityID" value="TOWN_GUARD"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="WALKING"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2352" name="Player0" tilewidth="32" tileheight="32" tilecount="120" columns="8">
+  <properties>
+   <property name="entityID" value="FOLK"/>
+   <property name="name" value="NPC"/>
+   <property name="state" value="IMMOBILE"/>
+  </properties>
+  <image source="../sprites/characters/Player0.png" width="256" height="480"/>
+  <tile id="0">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK1"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK2"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK3"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK4"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK5"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="entityID" value="TOWN_INNKEEPER"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK7"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK8"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK9"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK10"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK11"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK12"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK13"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK14"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK15"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK16"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK17"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="entityID" value="TOWN_BLACKSMITH"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK19"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK20"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK21"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK22"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="entityID" value="TOWN_MAGIC"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK24"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK25"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK26"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK27"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK28"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK29"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK30"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK31"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK32"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK33"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK34"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK35"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK36"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK37"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK38"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK39"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK40"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK41"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK42"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK43"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK44"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK45"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK46"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK47"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK48"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK49"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK50"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK51"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK52"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK53"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK54"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK55"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK56"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK57"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK58"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK59"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK60"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK61"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK62"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK63"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="100">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK64"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK65"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK66"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK67"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK68"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK69"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="106">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="107">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="109">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="110">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="112">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK70"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="113">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK71"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="114">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK72"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK73"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK74"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK75"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="118">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK76"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="entityID" value="TOWN_FOLK77"/>
+    <property name="name" value="NPC"/>
+    <property name="state" value="IMMOBILE"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2472" name="Map0" tilewidth="32" tileheight="32" tilecount="180" columns="12">
+  <image source="../sprites/objects/Map0.png" width="384" height="480"/>
+  <tile id="153">
+   <properties>
+    <property name="direction" value="Town"/>
+    <property name="name" value="Portal"/>
+   </properties>
+  </tile>
+  <tile id="164">
+   <properties>
+    <property name="direction" value="default"/>
+    <property name="name" value="Portal"/>
+   </properties>
+  </tile>
+  <tile id="165">
+   <properties>
+    <property name="direction" value="TopWorld"/>
+    <property name="name" value="Portal"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Backgroud_Layer" width="40" height="30" locked="1">
+  <data encoding="csv">
+156,156,156,177,177,177,177,156,156,156,156,156,177,177,177,177,156,156,156,177,177,177,177,177,177,156,156,156,156,177,177,177,177,177,177,177,177,177,177,156,
+156,156,2147483803,401,401,401,401,155,156,156,156,2147483803,401,401,401,401,155,156,2147483803,401,401,401,401,401,401,155,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,155,
+156,156,2147483803,401,401,401,401,155,156,156,156,2147483803,401,401,401,401,155,156,2147483803,401,401,401,401,401,401,155,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,155,
+156,156,2147483803,401,401,401,401,155,156,156,156,2147483803,401,401,401,401,155,156,2147483803,401,401,401,401,401,401,155,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,155,
+156,156,2147483803,401,401,401,401,155,156,156,156,2147483803,401,401,401,401,155,156,2147483803,401,401,401,401,401,401,155,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,155,
+156,156,2147483803,401,401,401,401,155,156,156,156,156,135,136,382,134,156,156,156,135,135,136,382,134,135,156,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,155,
+156,156,156,136,382,134,135,156,177,177,177,177,177,178,424,176,177,177,177,177,177,178,424,176,177,156,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,155,
+156,156,156,2147483803,403,155,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,155,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,155,
+156,156,156,2147483803,424,155,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,155,156,156,157,401,401,401,401,401,401,401,401,401,401,155,
+156,156,156,156,1073742001,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,155,156,156,157,401,401,401,401,401,401,401,401,401,401,155,
+156,156,156,156,156,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,155,156,156,156,135,135,135,135,135,135,136,382,134,135,156,
+156,156,156,156,156,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,176,177,177,177,177,177,177,177,177,177,178,424,155,156,156,
+156,156,156,156,156,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,155,156,156,
+156,156,156,156,156,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,134,135,135,135,135,135,135,135,135,135,135,135,156,156,156,
+156,156,156,156,156,156,156,156,135,135,135,135,135,136,401,134,135,135,135,135,136,401,401,401,401,155,156,156,156,156,156,156,156,156,156,156,156,156,156,156,
+156,156,177,177,177,177,177,177,177,177,156,156,156,157,401,155,156,156,156,156,2147483803,401,401,401,401,155,156,156,156,156,156,156,156,156,156,156,156,156,156,156,
+156,2147483803,401,401,401,401,401,401,401,401,155,156,156,157,401,155,156,156,156,156,156,1073742001,1073742001,1073742001,1073742001,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,
+156,2147483803,401,401,401,401,401,401,401,401,176,177,177,178,401,155,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,
+156,2147483803,401,408,408,408,408,408,408,401,404,406,401,401,401,155,156,156,156,156,156,156,156,156,156,177,177,177,177,177,177,177,177,177,177,177,177,177,156,156,
+156,2147483803,401,408,408,408,408,408,408,401,134,1073742001,1073742001,136,401,155,156,156,156,156,156,156,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,155,156,
+156,2147483803,401,408,408,408,408,408,408,401,155,156,156,2147483803,401,155,156,156,156,156,156,156,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,155,156,
+156,2147483803,401,408,408,408,408,408,408,401,155,156,156,2147483803,401,155,156,156,156,156,156,156,156,156,2147483803,401,401,401,408,408,408,408,408,408,408,401,401,401,155,156,
+156,2147483803,401,408,408,408,408,408,408,401,155,156,156,2147483803,401,155,156,156,156,156,156,156,156,156,2147483803,401,401,401,408,408,408,408,408,408,408,401,401,401,155,156,
+156,2147483803,401,401,401,401,401,401,401,401,155,156,156,2147483803,401,155,156,156,156,156,156,156,156,156,2147483803,401,401,401,401,408,408,408,408,408,408,401,401,401,155,156,
+156,2147483803,401,401,401,401,401,401,401,401,155,156,156,2147483803,401,155,156,156,156,156,156,156,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,155,156,
+156,2147483803,401,401,401,401,401,401,401,401,155,156,156,2147483803,401,155,156,156,156,156,156,156,156,156,156,135,135,135,135,135,135,135,382,134,135,135,135,135,156,156,
+156,2147483803,401,401,401,401,401,401,401,401,155,156,156,2147483803,401,176,177,177,177,177,177,177,177,177,177,177,177,177,177,177,177,178,424,176,177,177,177,177,177,177,
+156,156,135,135,135,135,135,135,135,135,156,156,156,2147483803,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,401,149,149,149,149,149,149,149,
+156,156,156,156,156,156,156,156,156,156,156,156,156,156,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,
+156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156
+</data>
+ </layer>
+ <layer id="2" name="Ground_Layer" width="40" height="30" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,3221226577,1073742888,1073742888,1073742929,0,0,0,0,0,3221226577,1073742888,1073742888,1073742929,0,0,0,3221226577,1073742888,1073742888,1073742888,1073742888,1073742929,0,0,0,0,3221226577,1073742888,1073742888,1073742888,1073742888,1073742888,1073742888,1073742888,1073742888,1073742929,0,
+0,0,0,1083,408,408,1083,0,0,0,0,0,1083,408,408,1083,0,0,0,1083,408,408,408,408,1083,0,0,0,0,1083,408,408,1083,408,408,408,408,408,1083,0,
+0,0,0,1083,408,408,1083,0,0,0,0,0,1083,408,408,1083,0,0,0,1083,408,408,408,408,1083,0,0,0,0,1083,408,408,391,408,408,408,408,408,1083,0,
+0,0,0,1083,408,408,1083,0,0,0,0,0,1103,1064,391,1105,0,0,0,1103,1064,1064,391,1064,1105,0,0,0,0,1083,408,408,1083,408,408,408,408,408,1083,0,
+0,0,0,1103,391,1064,1105,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1083,408,408,1083,408,408,408,408,408,1083,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1083,408,408,1083,408,408,408,408,408,1083,0,
+0,0,0,0,0,0,0,0,127,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,129,0,0,0,0,1083,408,408,1083,408,408,408,408,408,1083,0,
+0,0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,149,149,149,149,149,149,149,150,0,0,0,0,1083,408,408,1083,408,408,408,408,408,1083,0,
+0,0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,149,149,149,149,149,149,149,150,0,0,0,0,1103,1064,1064,1064,1064,1064,1064,0,1064,1105,0,
+0,0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,149,149,149,149,149,149,149,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,149,149,149,149,149,149,149,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,149,149,149,149,149,149,149,150,153,153,153,153,153,153,153,153,153,153,153,154,0,0,0,
+0,0,0,0,0,0,0,0,169,170,170,170,170,170,170,170,170,170,170,170,170,149,149,149,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,0,0,0,0,0,0,148,149,149,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,0,0,0,0,0,0,169,170,170,171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,3221226577,1073742888,1073742888,1073742888,1073742888,1073742888,1073742888,1073742929,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1083,408,408,408,408,408,408,1083,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1083,408,408,408,408,408,408,391,0,0,152,153,153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1083,935,936,936,936,936,937,1083,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,3221226577,1073742888,1073742888,1073742888,1073742888,1073742888,1073742888,1073742888,1073742888,1073742888,1073742888,1073742888,1073742929,0,0,
+0,0,1083,943,944,944,944,944,945,1083,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,1083,408,408,408,408,408,408,408,408,408,408,408,1083,0,0,
+0,0,1083,943,944,944,944,944,945,1083,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,1083,408,408,408,932,933,933,933,933,934,408,408,1083,0,0,
+0,0,1083,951,952,952,952,952,953,1083,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,1083,408,408,408,940,941,941,941,941,942,408,408,1083,0,0,
+0,0,1083,408,408,408,408,408,391,1083,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,1083,408,408,408,948,949,949,949,949,950,408,408,1083,0,0,
+0,0,1083,408,408,408,408,408,408,1083,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,1103,1064,1064,1064,1064,1064,1064,391,1064,1064,1064,1064,1105,0,0,
+0,0,1083,408,408,408,408,408,408,1083,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1103,1064,1064,1064,1064,1064,1064,1105,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,169,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,149,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Decoration_Layer" width="40" height="30" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,886,0,0,0,0,0,0,0,886,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,886,0,0,0,0,0,0,0,0,0,
+0,0,0,0,892,894,0,0,0,0,0,0,0,894,892,0,0,0,0,0,878,0,892,887,0,0,0,0,0,0,895,0,0,0,0,0,0,887,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2298,0,0,877,0,0,848,0,0,2298,0,0,0,893,0,0,0,0,882,0,848,0,0,
+0,0,0,0,0,877,0,0,2298,2298,2298,0,0,0,0,0,0,2298,0,0,0,0,0,0,0,0,2298,0,0,0,857,0,0,0,900,901,901,902,0,0,
+0,0,0,0,0,0,0,0,2296,2296,2296,0,0,0,0,0,0,2296,0,0,0,0,0,0,0,0,2298,2296,0,0,857,0,0,0,0,879,0,879,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,861,0,0,0,0,0,0,0,861,0,0,2296,2298,0,0,857,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,988,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,988,0,0,2298,0,0,906,0,0,0,0,876,877,878,0,0,
+0,0,0,0,0,861,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2298,0,0,900,902,0,906,0,0,0,887,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2298,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,989,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2298,2016,2025,2026,2296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2024,2024,2025,2026,2296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,862,0,0,
+2298,2032,2025,2026,2296,0,0,0,988,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,988,0,0,0,0,0,0,0,0,2016,2017,2018,2017,2018,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2296,2296,0,2024,2025,2026,2025,2026,0,0,
+0,0,0,900,901,902,0,0,887,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2296,2296,0,2032,2033,2034,2033,2034,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,863,0,0,0,0,0,0,0,0,0,2296,2296,2296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,882,0,0,0,0,0,0,0,0,0,0,0,0,0,2296,2017,2016,2017,2298,0,0,0,853,903,0,0,0,0,0,0,0,0,887,0,0,0,
+0,0,0,0,0,877,0,0,0,870,0,0,0,0,0,0,0,0,2016,2017,2018,2018,2298,0,0,0,845,904,0,0,0,887,887,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2024,2025,2026,2026,2026,0,0,0,0,904,0,876,880,880,880,880,878,0,0,0,0,0,
+0,0,0,900,901,901,901,902,0,0,0,0,0,0,0,0,0,0,2298,2033,2298,2298,2298,0,0,0,848,1073742727,0,0,0,0,0,0,0,0,887,0,0,0,
+0,0,0,909,0,0,0,0,0,0,0,2298,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,887,906,0,913,911,908,0,0,2298,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,863,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2298,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,860,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2637,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="NPC_Layer">
+  <object id="128" gid="2336" x="36" y="257.333" width="32" height="32"/>
+  <object id="129" gid="2336" x="298.667" y="100" width="32" height="32"/>
+  <object id="130" gid="2336" x="380" y="368" width="32" height="32"/>
+  <object id="131" gid="2336" x="554.667" y="124" width="32" height="32"/>
+  <object id="132" gid="2336" x="602.667" y="393.333" width="32" height="32"/>
+  <object id="133" gid="2336" x="834.667" y="128" width="32" height="32"/>
+  <object id="135" gid="2336" x="530.667" y="617.333" width="32" height="32"/>
+  <object id="136" gid="2336" x="381.333" y="518.667" width="32" height="32"/>
+  <object id="137" gid="2336" x="226.667" y="674.667" width="32" height="32"/>
+  <object id="138" gid="2336" x="369.333" y="752" width="32" height="32"/>
+  <object id="139" gid="2336" x="573.333" y="897.333" width="32" height="32"/>
+  <object id="140" gid="2336" x="742.667" y="836" width="32" height="32"/>
+  <object id="141" gid="2336" x="1100" y="688" width="32" height="32"/>
+  <object id="142" gid="2336" x="710.667" y="313.333" width="32" height="32"/>
+  <object id="143" gid="2336" x="993.333" y="380" width="32" height="32"/>
+  <object id="145" gid="2336" x="1073.33" y="128" width="32" height="32"/>
+  <object id="146" gid="2336" x="1176" y="470.667" width="32" height="32"/>
+  <object id="147" gid="2336" x="873.333" y="481.333" width="32" height="32"/>
+  <object id="148" gid="2357" x="1152" y="128" width="32" height="32"/>
+  <object id="149" gid="2382" x="832" y="736" width="32" height="32"/>
+  <object id="154" gid="2377" x="128" y="800" width="32" height="32"/>
+  <object id="155" gid="2376" x="522.667" y="425.333" width="32" height="32"/>
+  <object id="156" gid="2384" x="712" y="442.667" width="32" height="32"/>
+  <object id="157" gid="2392" x="602.667" y="309.333" width="32" height="32"/>
+  <object id="158" gid="2393" x="370.667" y="294.667" width="32" height="32"/>
+  <object id="159" gid="2381" x="1013.33" y="549.333" width="32" height="32"/>
+  <object id="160" gid="2391" x="969.333" y="465.333" width="32" height="32"/>
+  <object id="161" gid="2423" x="928" y="672" width="32" height="32"/>
+  <object id="162" gid="2416" x="416" y="416" width="32" height="32"/>
+  <object id="163" gid="2394" x="613.333" y="581.333" width="32" height="32"/>
+  <object id="164" gid="2440" x="1120" y="864" width="32" height="32"/>
+  <object id="165" gid="2444" x="1184" y="928" width="32" height="32"/>
+  <object id="166" gid="2387" x="864" y="576" width="32" height="32"/>
+  <object id="167" gid="2364" x="576" y="832" width="32" height="32"/>
+  <object id="168" gid="2365" x="905.333" y="868" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="11" name="Solid_Layer" locked="1">
+  <object id="34" x="96" y="32" width="128" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="35" x="96" y="64" width="32" height="96">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="36" x="192" y="64" width="32" height="96">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="37" x="96" y="160" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="39" x="160" y="160" width="64" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="40" x="128" y="64" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="41" x="160" y="64" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="42" x="160" y="128" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="43" x="160" y="256" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="44" x="32" y="352" width="96" height="96">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="45" x="0" y="384" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="46" x="256" y="224" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="47" x="256" y="416" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="48" x="480" y="320" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="49" x="480" y="192" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="50" x="736" y="192" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="51" x="768" y="224" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="52" x="768" y="480" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="53" x="384" y="32" width="128" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="54" x="384" y="64" width="32" height="64">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="55" x="416" y="64" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="56" x="448" y="64" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="57" x="480" y="64" width="32" height="64">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="61" x="480" y="128" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="62" x="384" y="128" width="64" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="63" x="608" y="32" width="192" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="64" x="608" y="128" width="96" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="65" x="736" y="128" width="64" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="66" x="768" y="64" width="32" height="64">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="67" x="608" y="64" width="32" height="64">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="68" x="640" y="64" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="69" x="640" y="96" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="70" x="704" y="64" width="64" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="71" x="64" y="512" width="256" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="72" x="64" y="544" width="32" height="288">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="73" x="64" y="832" width="256" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="74" x="288" y="544" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="75" x="288" y="608" width="32" height="224">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="76" x="256" y="544" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="77" x="96" y="544" width="96" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="78" x="128" y="640" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="79" x="160" y="672" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="80" x="96" y="736" width="160" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="81" x="96" y="768" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="82" x="96" y="800" width="64" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="83" x="192" y="800" width="96" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="84" x="608" y="640" width="96" height="96">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="85" x="576" y="672" width="32" height="64">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="86" x="608" y="736" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="87" x="704" y="704" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="88" x="800" y="768" width="224" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="89" x="1056" y="768" width="160" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="90" x="1184" y="640" width="32" height="128">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="91" x="800" y="640" width="32" height="128">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="92" x="832" y="640" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="93" x="832" y="672" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="94" x="832" y="736" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="95" x="864" y="640" width="32" height="128">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="96" x="928" y="704" width="192" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="97" x="992" y="672" width="64" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="98" x="1152" y="640" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="99" x="1152" y="736" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="100" x="800" y="608" width="416" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="101" x="1056" y="480" width="160" height="96">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="102" x="1184" y="384" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="103" x="928" y="32" width="320" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="104" x="1216" y="64" width="32" height="224">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="105" x="928" y="64" width="32" height="224">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="106" x="928" y="288" width="224" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="107" x="1184" y="288" width="64" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="108" x="1120" y="224" width="96" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="109" x="1184" y="256" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="110" x="1056" y="256" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="112" x="1024" y="64" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="113" x="960" y="64" width="32" height="224">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="114" x="992" y="256" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="115" x="1024" y="128" width="32" height="160">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="116" x="1088" y="128" width="128" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="117" x="1184" y="64" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="118" x="1184" y="96" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="119" x="1184" y="160" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="120" x="1120" y="160" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="121" x="1120" y="96" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="122" x="320" y="608" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="123" x="992" y="800" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+  <object id="169" x="1248" y="832" width="32" height="32">
+   <properties>
+    <property name="name" value="Solid"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="Portal_Layer" locked="1">
+  <object id="178" x="1248" y="864" width="32" height="32">
+   <properties>
+    <property name="To" value="TopWorldMap"/>
+    <property name="name" value="Portal"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="Player_Layer" locked="1">
+  <object id="174" x="640" y="864" width="32" height="32">
+   <properties>
+    <property name="From" value="Init"/>
+    <property name="name" value="start"/>
+   </properties>
+  </object>
+  <object id="177" x="1184" y="864" width="32" height="32">
+   <properties>
+    <property name="From" value="TopWorldMap"/>
+    <property name="name" value="start"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,23 @@
+{
+currentPosition: {
+	Init: {
+		class: com.badlogic.gdx.math.Vector2
+		x: 640
+		y: 64
+	}
+	currentPosition: {
+		class: com.badlogic.gdx.math.Vector2
+		x: 632.96967
+		y: 95.682465
+	}
+	TopWorldMap: {
+		class: com.badlogic.gdx.math.Vector2
+		x: 1184
+		y: 64
+	}
+}
+currentMapType: {
+	class: java.lang.String
+	value: TownMap
+}
+}
